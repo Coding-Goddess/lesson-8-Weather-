@@ -1,0 +1,60 @@
+body {
+  background: radial-gradient(
+    592px at 48.2% 50%,
+    rgba(255, 255, 249, 0.6) 0%,
+    rgb(160, 199, 254) 74.6%
+  );
+}
+
+.weather-app {
+  border: 1px solid #dadde1;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 20px auto;
+  max-width: 600px;
+  border: 4px solid black;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 20px auto;
+  max-width: 650px;
+}
+h1 {
+  color: black;
+  size: 28px;
+}
+ul {
+  margin: 0 0 10px;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+.weather-temperature strong {
+  font-size: 64px;
+  font-weight: 600;
+  color: purple;
+  line-height: 1;
+}
+.float-left {
+  float: left;
+}
+.units {
+  position: relative;
+}
+
+.weather-forecast {
+  margin-top: 20px;
+  text-align: center;
+}
+.weather-forecast {
+  font-size: 16px;
+  opacity: 0.9;
+}
+.weather-forecast-temperatures {
+  font-size: 13px;
+  margin-left: 15px;
+}
+.weather-forecast-temperatures-min {
+  opacity: 0.9;
+}
